@@ -1,0 +1,30 @@
+<template>
+    <div>
+        <div class="m-h-10 d-flex flex-column justify-content-between my-5 font-big-1-2">
+            <ul class="list-unstyled font-weight-bold">
+                <li><g-link to="/">HOME</g-link></li>
+                <li><g-link to="/about">ABOUT</g-link></li>
+                <li><g-link to="/blog">BLOG</g-link></li>
+                <li><g-link to="/contact">CONTACT</g-link></li>
+            </ul>
+            <div>
+                <div class="w-3 border-bottom"></div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+    export default {
+        name: "Header"
+    }
+</script>
+
+<style scoped>
+
+    .m-h-10 {
+        min-height: 10rem;
+    }
+
+
+</style>

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400|Tinos&display=swap');
+$font-size-base: 0.8rem !default;
+$font-family-sans-serif:  "Poppins", Helvetica, Arial, sans-serif !default;
+$link-color: #000 !default;
+$text-color: #000 !default;
+$link-hover-color: lighten($link-color, 50%) !default;
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+.serif-font-face {
+  font-family: 'Tinos', serif;
+}
+
+.w-3 {
+  width: 3% !important;
+}
+.min-vh-40 {
+  min-height: 40vh;
+}
+
