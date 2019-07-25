@@ -17,3 +17,10 @@ $link-hover-color: lighten($link-color, 50%) !default;
   min-height: 40vh;
 }
 
+.border-width-5 {
+  border-width: 5px!important;
+}
+
+.border-black {
+  border-color: #000!important;
+}
