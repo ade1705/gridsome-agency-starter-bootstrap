@@ -8,7 +8,6 @@
         </main>
       </transition>
     </div>
-    <hr>
     <div class="container">
       <Footer />
     </div>

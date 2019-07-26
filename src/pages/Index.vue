@@ -6,7 +6,7 @@
         <h1 class="display-4 serif-font-face">Super Duper Creative Agency</h1>
         <p class="font-big-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
         <p class="font-big-1">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-        <p class="font-big-1"><a href="#" class="text-dark font-weight-bold"><u>damdey@yahoo.com</u></a></p>
+        <p class="font-big-1"><a href="#" class="text-dark font-weight-bold"><u>hello@badman.com</u></a></p>
       </div>
       <div class="col-md-8">
         <Carousel />

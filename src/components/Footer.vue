@@ -3,18 +3,19 @@
         <div class="col-2">
             <p><b>QUICKLINKS</b></p>
             <ul class="list-unstyled font-big-1-2 font-weight-light">
-                <li>Home</li>
-                <li>Blog</li>
-                <li>Contact</li>
+                <li><g-link to="/">HOME</g-link></li>
+                <li><g-link to="/about">ABOUT</g-link></li>
+                <li><g-link to="/blog">BLOG</g-link></li>
+                <li><g-link to="/contact">CONTACT</g-link></li>
             </ul>
         </div>
         <div class="col-2">
             <p><b>SOCIAL</b></p>
             <ul class="list-unstyled font-big-1-2 font-weight-light">
-                <li>Twitter</li>
-                <li>Instagram</li>
-                <li>Facebook</li>
-                <li>Medium</li>
+                <li><g-link to="/">Twitter</g-link></li>
+                <li><g-link to="/">Instagram</g-link></li>
+                <li><g-link to="/">Facebook</g-link></li>
+                <li><g-link to="/">Medium</g-link></li>
             </ul>
         </div>
         <div class="col-6 offset-md-2">
@@ -29,7 +30,7 @@
             </div>
             <div class="form-group">
                 <label class="font-weight-bold">GENERAL ENQUIRIES</label>
-                <h4 class="font-weight-light">hello@badman.com</h4>
+                <h4 class="font-weight-light"><a href="mailto:hello@badman.com">hello@badman.com</a></h4>
             </div>
         </div>
         <div class="container">
