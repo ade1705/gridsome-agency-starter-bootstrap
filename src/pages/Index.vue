@@ -9,7 +9,7 @@
         <p class="font-big-1"><a href="#" class="text-dark font-weight-bold"><u>hello@badman.com</u></a></p>
       </div>
       <div class="col-md-8">
-        <Carousel />
+        <Carousel :slides="slides" />
       </div>
     </div>
     <div class="p-5 bg-light my-3">
@@ -20,36 +20,38 @@
 </template>
 
 <script>
-    import TeamMember from "../components/team/Team-Member";
     import Carousel from "../components/home/Carousel";
     export default {
-        components: {Carousel, TeamMember},
+        components: {Carousel},
         metaInfo: {
-            title: 'Hello, world!'
+            title: 'Home'
         },
         data() {
             return {
-                teamMembers: [
+                slides: [
                     {
-                        index: 0,
-                        name: "John Doe",
-                        title: "Software Developer",
-                        imageSrc: "https://source.unsplash.com/random/300x400/?potrait,happy",
-                        description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. "
+                        type: 'Development',
+                        title: 'New Dev Work',
+                        src: "https://source.unsplash.com/random/800x900/?HTML",
+                        description: "Sometime we can feel a bit dull in the morning and we need to produce our own sunshine energy."
                     },
                     {
-                        index: 1,
-                        name: "John Doe",
-                        title: "Software Developer",
-                        imageSrc: "https://source.unsplash.com/random/300x400/?potrait,happy",
-                        description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. "
+                        type: 'Design',
+                        title: 'New UI Design',
+                        src: "https://source.unsplash.com/random/800x900/?interface",
+                        description: "So here are 17 wonderful, short positive quotes that my amazing colleague Hayley has collected for you."
                     },
                     {
-                        index: 2,
-                        name: "John Doe",
-                        title: "Software Developer",
-                        imageSrc: "https://source.unsplash.com/random/300x400/?potrait,happy",
-                        description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. "
+                        type: 'Development',
+                        title: 'Update on New Feature',
+                        src: "https://source.unsplash.com/random/800x900/?code",
+                        description: "Either way, I think we can all do with a bit more spark to help us perform miracles and live in joy."
+                    },
+                    {
+                        type: 'Development',
+                        title: 'Bug Fix',
+                        src: "https://source.unsplash.com/random/800x900/?javascript",
+                        description: "We also have a powerful and proven Law of Attraction gift which you can access by clicking the link below"
                     },
                 ]
             }

@@ -33,32 +33,8 @@
     import Post from "../components/posts/Post";
     export default {
         components: {Post},
-        data() {
-            return {
-                teamMembers: [
-                    {
-                        index: 0,
-                        name: "John Doe",
-                        title: "Software Developer",
-                        imageSrc: "https://source.unsplash.com/random/300x400/?potrait,happy",
-                        description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. "
-                    },
-                    {
-                        index: 1,
-                        name: "John Doe",
-                        title: "Software Developer",
-                        imageSrc: "https://source.unsplash.com/random/300x400/?potrait,happy",
-                        description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. "
-                    },
-                    {
-                        index: 2,
-                        name: "John Doe",
-                        title: "Software Developer",
-                        imageSrc: "https://source.unsplash.com/random/300x400/?potrait,happy",
-                        description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. "
-                    },
-                ]
-            }
+        metaInfo: {
+            title: 'Blog'
         }
     }
 </script>

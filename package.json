@@ -14,13 +14,17 @@
     "@gridsome/remark-prismjs": "^0.1.0",
     "@gridsome/source-filesystem": "^0.5.0",
     "@gridsome/transformer-remark": "^0.3.2",
+    "@zefman/gridsome-source-instagram": "^0.1.2",
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.27",
     "gridsome": "^0.6.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-plugin-gridsome": "^1.2.6",
     "node-sass": "^4.12.0",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "vue-eslint-parser": "^6.0.4"
   }
 }

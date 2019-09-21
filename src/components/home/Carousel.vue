@@ -29,35 +29,12 @@
 <script>
     export default {
         name: "Carousel",
+        props: {
+            slides: Array
+        },
         data() {
             return {
                 slide: 1,
-                slides: [
-                    {
-                        type: 'Design',
-                        title: 'XYZ Mockup',
-                        src: "https://source.unsplash.com/random/800x800/?city",
-                        description: "Sometime we can feel a bit dull in the morning and we need to produce our own sunshine energy."
-                    },
-                    {
-                        type: 'Design',
-                        title: 'PupGee Presentatuib',
-                        src: "https://source.unsplash.com/random/800x800/?dancing",
-                        description: "So here are 17 wonderful, short positive quotes that my amazing colleague Hayley has collected for you."
-                    },
-                    {
-                        type: 'Design',
-                        title: 'United Becoming',
-                        src: "https://source.unsplash.com/random/800x800/?people",
-                        description: "Either way, I think we can all do with a bit more spark to help us perform miracles and live in joy."
-                    },
-                    {
-                        type: 'Design',
-                        title: 'Grandest Creation',
-                        src: "https://source.unsplash.com/random/800x800/?silouhette",
-                        description: "We also have a powerful and proven Law of Attraction gift which you can access by clicking the link below"
-                    },
-                ]
             }
         },
         methods: {

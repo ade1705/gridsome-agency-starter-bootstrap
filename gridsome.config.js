@@ -17,6 +17,13 @@ module.exports = {
                 path: 'blog/posts/*.md',
                 route: '/blog/:slug',
             }
+        },
+        {
+            use: '@zefman/gridsome-source-instagram',
+            options: {
+                username: 'divan_raj', // Instagram username
+                typeName: 'InstagramPhoto' // The GraphQL type you want the photos to be added under. Defaults to InstagramPhoto
+            }
         }
     ],
 
