@@ -21,7 +21,7 @@
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "eslint": "^6.1.0",
+    "eslint": "^6..0",
     "eslint-plugin-gridsome": "^1.2.6",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
