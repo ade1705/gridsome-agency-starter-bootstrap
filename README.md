@@ -20,6 +20,13 @@ This starter project includes some of the latest powerful technologies.
 *   **Sass**
 *   **Markdown** 
 
+### Plugins
+
+With Gridsome offering a plugin-rich ecosystem, there are a few key plugins that make this project possible. 
+
+- [Gridsome Source Filesystem](https://gridsome.org/plugins/@gridsome/source-filesystem) Transform files into content that can be fetched with GraphQL in your components.
+- [Instagram source for Gridsome](https://gridsome.org/plugins/@zefman/gridsome-source-instagram) Grabbing the latest photos from a user's public instagram profile.
+
 ## Install
 ### 1. Install Gridsome CLI tool if you don't have
 
