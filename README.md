@@ -1,7 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1aa6d8ef-65bd-4520-8781-0614d2bc4f4b/deploy-status)](https://app.netlify.com/sites/gridsome-agency-starter/deploys)
 # Gridsome Agency Starter using Bootstrap 4
 
-> A minimalistic starter theme for an agency using [Gridsome]() with Bootstrap 4. Uses a plugin to query instagram posts, and pages uses markdown.
+> A minimalistic starter theme for an agency using [Gridsome]() with Bootstrap 4.
 
 ## Preview
 
