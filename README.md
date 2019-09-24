@@ -8,16 +8,16 @@
 
 ### Demo
 
-[https://test.dev](https://test.dev)
+[https://gridsome-agency-starter.netlify.com](https://gridsome-agency-starter.netlify.com)
 
 ### Features
 
 This starter project includes some of the latest powerful technologies.
 
-*   **Gridsome ** 
-*   **Bootstrap ** 
-*   **Sass **
-*   **Markdown ** 
+*   **Gridsome** 
+*   **Bootstrap** 
+*   **Sass**
+*   **Markdown** 
 
 ## Install
 ### 1. Install Gridsome CLI tool if you don't have
