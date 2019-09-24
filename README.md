@@ -34,7 +34,7 @@ With Gridsome offering a plugin-rich ecosystem, there are a few key plugins that
 
 ### 2. Create a Gridsome project
 
-1. `gridsome create my-agency https://github.com/adeadedoja/gridsome-agency-starter-bootstrap` to install default starter
+1. `gridsome create my-agency https://github.com/adeadedoja/gridsome-agency-starter-bootstrap` to install agency starter
 2. `cd my-agency` to open the folder
 3. `gridsome develop` to start a local dev server at `http://localhost:8080`
 4. Happy coding 🎉🙌
