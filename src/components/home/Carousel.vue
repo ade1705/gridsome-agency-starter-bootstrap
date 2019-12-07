@@ -34,12 +34,12 @@
         },
         data() {
             return {
-                slide: 1,
+                slide: 0,
             }
         },
         methods: {
             getCurrentSlide: function () {
-                return this.slides[this.slide - 1];
+                return this.slides[this.slide];
             }
         }
     }
